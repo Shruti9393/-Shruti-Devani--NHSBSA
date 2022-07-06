@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class GpPracticePage extends Utility {
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(GpPracticePage.class.getName());
     public GpPracticePage() {
         PageFactory.initElements(driver, this);
     }

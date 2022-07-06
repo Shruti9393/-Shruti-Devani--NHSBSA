@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class DentalPracticePage extends Utility{
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(DentalPracticePage.class.getName());
     public DentalPracticePage() {
         PageFactory.initElements(driver, this);
     }

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class PartnerPage extends Utility
 {
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(PartnerPage.class.getName());
 
     public PartnerPage() {
         PageFactory.initElements(driver, this);

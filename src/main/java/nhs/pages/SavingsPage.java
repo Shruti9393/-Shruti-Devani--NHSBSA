@@ -9,13 +9,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class SavingsPage extends Utility {
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(SavingsPage.class.getName());
 
     public SavingsPage() {
         PageFactory.initElements(driver, this);
     }
     @CacheLookup
-    @FindBy(xpath = "//input[@id='radio-no']")
+    @FindBy(xpath = "//input[@id='radio-yes']")
     WebElement nosavaing;
     @CacheLookup
     @FindBy(xpath = "//input[@class='button']")

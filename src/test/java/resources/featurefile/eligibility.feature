@@ -27,6 +27,8 @@ Feature: Eligibility Checker
     And   I click on next button for diabetes
     And   I select i dont have glaucoma
     And   I click on next button for glaucoma
+    And   I click on I or my partner do not live permenentely in a care home
+    And   I click on next button for live permenentely in a care home
     And   I select my and my partner have not more than £16,000 in savings, investments or property
     And   I click on next button for savings and investments
     Then  I should get a result of whether I will get help or not

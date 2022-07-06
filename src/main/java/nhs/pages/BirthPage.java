@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BirthPage extends Utility
 {
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(BirthPage.class.getName());
 
     public BirthPage() {
         PageFactory.initElements(driver, this);

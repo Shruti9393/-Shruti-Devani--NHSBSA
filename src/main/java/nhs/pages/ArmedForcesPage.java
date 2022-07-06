@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ArmedForcesPage extends Utility {
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ArmedForcesPage.class.getName());
 
     public ArmedForcesPage() {
         PageFactory.initElements(driver, this);

@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class DateOfBirthPage extends Utility{
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(DateOfBirthPage.class.getName());
     public DateOfBirthPage() {
         PageFactory.initElements(driver, this);
     }

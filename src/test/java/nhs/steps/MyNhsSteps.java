@@ -145,11 +145,22 @@ new DentalPracticePage().clickOnDentalPractice();
 
     @Then("^I should get a result of whether I will get help or not$")
     public void iShouldGetAResultOfWhetherIWillGetHelpOrNot() {
-        Assert.assertEquals("Not Getting help","You get help with NHS costs",new NhsCosts().VerifyResultMsg());
+        Assert.assertEquals("Not Getting help","Based on what you've told us\n" +
+                "You get help with NHS costs",new NhsCosts().VerifyResultMsg());
     }
 
     @And("^I select my and my partner have not more than £(\\d+),(\\d+) in savings, investments or property$")
     public void iSelectMyAndMyPartnerHaveNotMoreThan£InSavingsInvestmentsOrProperty(int arg0, int arg1) {
         new SavingsPage().clickOnSavingInvestInProperty();
+    }
+
+    @And("^I click on next button for live permenentely in a care home$")
+    public void iClickOnNextButtonForLivePermenentelyInACareHome() {
+        new PermenentelyCareHome().clickOnnextbuttonforPermenentelyCareHome();
+    }
+
+    @And("^I click on I or my partner do not live permenentely in a care home$")
+    public void iClickOnIOrMyPartnerDoNotLivePermenentelyInACareHome() {
+        new PermenentelyCareHome().clickOncareHomePermenetely();
     }
 }
